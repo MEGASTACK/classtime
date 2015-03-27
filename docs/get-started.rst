@@ -54,6 +54,16 @@ Troubleshooting
 If the install fails, you might also need to `install python-ldap's
 dependencies manually <http://stackoverflow.com/questions/4768446/python-cant-install-python-ldap>`__
 
+Docker
+~~~~~~~~~~
+
+Building and running a Docker-ized instance of classtime is super easy! ::
+
+ $ docker build -t rosshamish/classtime:latest . 
+ $ docker run rosshamish/classtime
+
+Read more about docker at http://www.docker.io
+
 virtualenv
 ~~~~~~~~~~
 
